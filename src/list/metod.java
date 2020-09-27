@@ -8,5 +8,4 @@ public interface metod {
     void remove(int index);
     void displayList();
     void seachProduct(String name);
-    void sort();
 }

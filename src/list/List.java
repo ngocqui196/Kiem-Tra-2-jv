@@ -3,6 +3,8 @@ package list;
 import model.Product;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class List implements metod {
     private ArrayList<Product> lists;
@@ -63,8 +65,4 @@ public class List implements metod {
 
     }
 
-    @Override
-    public void sort() {
-
-    }
 }

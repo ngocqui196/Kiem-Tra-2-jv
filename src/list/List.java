@@ -39,7 +39,7 @@ public class List implements metod {
     public void remove(int inputID) {
         for (Product listiD : lists) {
            if (inputID == listiD.getiD()){
-               lists.remove(inputID);
+               lists.remove(listiD);
            }
            else System.out.println("iD sản phẩm này không có");
         }
